@@ -1,0 +1,13 @@
+package org.trident.barcodescanner;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class BarcodeNotesActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.barcode_notes);
+    }
+}
